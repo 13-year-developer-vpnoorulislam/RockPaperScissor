@@ -1,59 +1,47 @@
 @media (max-width: 768px) {
     h1 {
-        font-size: 28px;
+        font-size: 6vw;
+    }
+
+    p {
+        font-size: 4vw;
     }
 
     .scoreboard {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        min-width: unset;
-        width: 95%;
-    }
-
-    .items {
-        align-items: center;
-        margin: 10px 0;
+        width: 95vw;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .game_container {
-        flex-direction: column;
+        width: 90vw;
+        height: 90vw;
         min-width: unset;
-        width: 90%;
         min-height: unset;
-        border-radius: 20px;
-        margin: 30px auto;
-        padding: 20px;
-    }
-
-    .user, .com {
-        font-size: 28px;
-        margin: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .moves {
-        flex-direction: column;
-        margin: 10px 0;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
     }
 
     .moves button {
-        width: 80%;
-        margin: 10px 0;
-        font-size: 28px;
-    }
-
-    .ins {
-        flex-direction: column;
-        align-items: center;
+        font-size: 6vw;
+        padding: 8px 16px;
+        margin: 10px;
+        flex: 1 1 40%;
     }
 
     .ins_item {
-        width: 90%;
+        width: 80vw;
     }
 
     .close_btn {
-        font-size: 20px;
-        margin: 20px;
+        font-size: 5vw;
+        padding: 10px 20px;
     }
 }
 
