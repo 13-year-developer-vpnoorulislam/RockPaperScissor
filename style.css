@@ -1,3 +1,62 @@
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .scoreboard {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        min-width: unset;
+        width: 95%;
+    }
+
+    .items {
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .game_container {
+        flex-direction: column;
+        min-width: unset;
+        width: 90%;
+        min-height: unset;
+        border-radius: 20px;
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    .user, .com {
+        font-size: 28px;
+        margin: 10px;
+    }
+
+    .moves {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .moves button {
+        width: 80%;
+        margin: 10px 0;
+        font-size: 28px;
+    }
+
+    .ins {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ins_item {
+        width: 90%;
+    }
+
+    .close_btn {
+        font-size: 20px;
+        margin: 20px;
+    }
+}
+
 body {
     background: #26190C;
     display: flex;
