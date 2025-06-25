@@ -109,3 +109,4 @@ function winner() {
 function reset() {
     window.location.reload();
 }
+alert("Please view this site in 'Desktop Mode' if you are using a mobile phone as the user has not made it mobile responsive yet");
